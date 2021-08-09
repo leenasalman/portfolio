@@ -2,8 +2,12 @@
   <head>
     <link rel="icon" href="./Assets/palm.svg" type="image/gif" sizes="16x16" />
     <link rel="stylesheet" href="CSS/style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="./Assets/fontawesome/css/fontawesome.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
@@ -29,7 +33,7 @@
     <!-- NAV BAR START -->
     <nav class="div-nav navbar navbar-expand-lg position-fixed">
       <img
-        src="./Assets/logo2.svg"
+        src="./Assets/logo3.png"
         width="100%"
         height="100%"
         alt="leena salman logo"
@@ -54,6 +58,9 @@
     <!-- NAV BAR END -->
     <!-- side nav start -->
     <div class="side-nav-bar">
+      <button class="icon-button" id="sideNavButton">
+        <i class="fa fa-chevron-left"></i>
+      </button>
       <ul class="item-list">
         <li class="side-nav-item">
           <a onclick="gotoTop();">Welcome</a>
@@ -164,28 +171,67 @@
                 <!-- Slides -->
                 <div class="swiper-slide">
                   <div><h3>RaptorX</h3></div>
-                  <img src="Assets/raptorx.png" width="100%" height="100%" alt="RaptorX's website" />
+                  <img
+                    src="Assets/raptorx.png"
+                    width="100%"
+                    height="100%"
+                    alt="RaptorX's website"
+                  />
                   <a href="www.raptorx.com" class="btn-websites">Visit site</a>
                 </div>
                 <div class="swiper-slide">
                   <div><h3>IORAfrica</h3></div>
-                  <img src="Assets/iorafrica.png" width="100%" height="100%" alt="IORAfrica's website" />
-                  <a href="www.iorafrica.com" class="btn-websites">Visit site</a>
+                  <img
+                    src="Assets/iorafrica.png"
+                    width="100%"
+                    height="100%"
+                    alt="IORAfrica's website"
+                  />
+                  <a href="www.iorafrica.com" class="btn-websites"
+                    >Visit site</a
+                  >
                 </div>
                 <div class="swiper-slide">
                   <div><h3>Wolf777</h3></div>
-                  <img src="Assets/wolf777.png" width="100%" height="100%" alt="wolf777's website" />
-                  <a href="https://leenades.github.io/WolfTripleSeven/" class="btn-websites">Visit site</a>
+                  <img
+                    src="Assets/wolf777.png"
+                    width="100%"
+                    height="100%"
+                    alt="wolf777's website"
+                  />
+                  <a
+                    href="https://leenades.github.io/WolfTripleSeven/"
+                    class="btn-websites"
+                    >Visit site</a
+                  >
                 </div>
                 <div class="swiper-slide">
                   <div><h3>Royal Online Book</h3></div>
-                  <img src="Assets/royalonlinebook.png" width="100%" height="100%" alt="Royal Online Book's website" />
-                  <a href="https://leenades.github.io/RoyalOnlineBook/" class="btn-websites">Visit site</a>
+                  <img
+                    src="Assets/royalonlinebook.png"
+                    width="100%"
+                    height="100%"
+                    alt="Royal Online Book's website"
+                  />
+                  <a
+                    href="https://leenades.github.io/RoyalOnlineBook/"
+                    class="btn-websites"
+                    >Visit site</a
+                  >
                 </div>
                 <div class="swiper-slide">
                   <div><h3>Science University</h3></div>
-                  <img src="Assets/sci-uni.png" width="100%" height="100%" alt="" />
-                  <a href="https://github.com/leenades/science-university-backend" class="btn-websites">Visit site</a>
+                  <img
+                    src="Assets/sci-uni.png"
+                    width="100%"
+                    height="100%"
+                    alt=""
+                  />
+                  <a
+                    href="https://github.com/leenades/science-university-backend"
+                    class="btn-websites"
+                    >Visit site</a
+                  >
                 </div>
               </div>
               <!-- If we need pagination -->
@@ -201,30 +247,48 @@
           </div>
           <div class="col">
             <div class="swiper-container">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                  <!-- Slides -->
-                  <div class="swiper-slide">
-                    <div><h3>e-MOI</h3></div>
-                    <img src="Assets/emoi.png" width="500" height="100%" alt="electronic ministry of interior" />
-                    <a href="Assets/XD/emoi.xd" class="btn-websites btn-downloadable">Download link</a>
-                  </div>
-                  <div class="swiper-slide">
-                    <div><h3>Jordan Volunteering</h3></div>
-                    <img src="Assets/jordvol.png" width="500" height="100%" alt="Jordan Volunteering" />
-                    <a href="Assets/XD/jorvolunteer.xd" class="btn-websites btn-downloadable">Download file</a>
-                  </div>
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div><h3>e-MOI</h3></div>
+                  <img
+                    src="Assets/emoi.png"
+                    width="500"
+                    height="100%"
+                    alt="electronic ministry of interior"
+                  />
+                  <a
+                    href="Assets/XD/emoi.xd"
+                    class="btn-websites btn-downloadable"
+                    >Download link</a
+                  >
                 </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-  
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-  
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
+                <div class="swiper-slide">
+                  <div><h3>Jordan Volunteering</h3></div>
+                  <img
+                    src="Assets/jordvol.png"
+                    width="500"
+                    height="100%"
+                    alt="Jordan Volunteering"
+                  />
+                  <a
+                    href="Assets/XD/jorvolunteer.xd"
+                    class="btn-websites btn-downloadable"
+                    >Download file</a
+                  >
+                </div>
               </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
+              <!-- If we need scrollbar -->
+              <div class="swiper-scrollbar"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -233,27 +297,45 @@
 
     <!-- FOOTER START -->
     <footer id="footerSection" class="footer">
-      <div class="row row-email">
-        <div class="col resume">
-          <h4>
-            <span class="colored">Resume:</span>
-            <a href="Assets/Leena Salman_CV_2021.pdf" download> Leena's CV</a>
-          </h4>
+      <div class="container">
+        <div class="row row-header section-header">
+          <h2 style="color: #252324">Contact me</h2>
         </div>
-        <div class="col email">
-          <h4>
-            <span class="colored">Email:</span>
-            <a href="mailto:leena.salmann@gmail.com">leena.salmann@gmail.com</a>
-          </h4>
+        <div class="row row-email">
+          <div class="col resume">
+            <h4>
+              <span class="colored">Resume:</span>
+              <a href="Assets/Leena Salman_CV_2021.pdf" download> Leena's CV</a>
+            </h4>
+          </div>
+          <div class="col email">
+            <h4>
+              <span class="colored">Email:</span>
+              <a href="mailto:leena.salmann@gmail.com"
+                >leena.salmann@gmail.com</a
+              >
+            </h4>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col socials">
-          <a href="https://github.com/leenades" class="fa fa-github"></a>
-          <a
-            href="https://www.linkedin.com/in/leena-salman-44954117a/"
-            class="fa fa-linkedin"
-          ></a>
+        <div class="row">
+          <div class="col socials">
+            <a href="https://github.com/leenades" class="fa fa-github"></a>
+            <a
+              href="https://www.linkedin.com/in/leena-salman-44954117a/"
+              class="fa fa-linkedin"
+            ></a>
+          </div>
+        </div>
+        <div class="rainbow-band">
+          <div style="background-color: rgb(237, 28, 13)"></div>
+          <div style="background-color: rgb(237, 115, 0)"></div>
+          <div style="background-color: rgb(255, 191, 15)"></div>
+          <div style="background-color: rgb(135, 199, 15)"></div>
+          <div style="background-color: rgb(0, 201, 191)"></div>
+          <div style="background-color: rgb(61, 140, 222)"></div>
+          <div style="background-color: rgb(102, 51, 130)"></div>
+          <div style="background-color: rgb(255, 163, 181)"></div>
+          <div style="background-color: rgb(255, 51, 99)"></div>
         </div>
       </div>
     </footer>
