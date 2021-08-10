@@ -142,6 +142,8 @@ section.header.image-header::before {
 }
 .bar.flex > span.animate {
   opacity: 1;
+  color: #000;
+  
 }
 .skills .container .row .projects-titles {
   color: #fdb42a;
@@ -353,6 +355,7 @@ canvas {
     width: 11.11111111111%;
     display: inline-block;
 }
+
 @media only screen and (max-width: 600px) {
   .section-header h2 {
     color: #fff;
@@ -385,10 +388,10 @@ canvas {
     overflow: hidden;
   }
   .wrapper h1 {
-    font-size: 25px;
+    font-size: 14px;
   }
   .about-me .container .about-me-info .aboutme-paragraph {
-    font-size: 20px;
+    font-size: 18px;
     text-align: start;
   }
   .about-me .container .row .col {
@@ -422,7 +425,7 @@ canvas {
   /* side navbar start */
   .side-nav-bar {
     position: fixed;
-    right: -10rem;
+    right: -11rem;
     top: 0;
     bottom: 0;
     display: block;
@@ -481,8 +484,21 @@ canvas {
   .side-nav-bar .icon-button > i.rotated {
     transform: rotateY(180deg);
   }
+  /* side navbar end */
   footer .col.socials {
       justify-content: flex-start;
   }
-  /* side navbar end */
+  .mobile-projects-row {
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .projects-col-sliders {
+      max-width: 50%;
+  }
+  .skills .container .row .projects-titles {
+      font-size: 30px;
+  }
 }
