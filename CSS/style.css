@@ -479,6 +479,7 @@ canvas {
   .side-nav-bar .icon-button > i {
     padding: 0;
     margin: 0;
+    margin-right: 6px;
     transition: all 0.5s ease-in-out;
   }
   .side-nav-bar .icon-button > i.rotated {
