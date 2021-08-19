@@ -1,11 +1,3 @@
-const swiper = new Swiper(".swiper-container", {
-  // Navigation arrows
-  loop: true,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
 // ParticlesJS Config.
 particlesJS("particles-js", {
   particles: {
@@ -146,6 +138,37 @@ function goToContact() {
   );
 }
 
+// cube rotate function
+let rotateWebsites = 45;
+function rotateCube(event){
+  event.preventDefault();
+  if(event.deltaY > 0) {
+    rotateWebsites += 5;
+    el.style.transform = `translateZ(-100px) rotateX(${rotateWebsites}deg)`;
+  } else {
+    rotateWebsites -= 5;
+    el.style.transform = `translateZ(-100px) rotateX(${rotateWebsites}deg)`;
+  }
+}
+const el = document.querySelector('.cubeRotate');
+el.onwheel = rotateCube;
+
+// extra projects
+let rotateProjects = 45;
+function rotateCubeProjects(event){
+  event.preventDefault();
+  if(event.deltaY > 0) {
+    rotateProjects += 5;
+    elProjects.style.transform = `translateZ(-100px) rotateX(${rotateProjects}deg)`;
+  } else {
+    rotateProjects -= 5;
+    elProjects.style.transform = `translateZ(-100px) rotateX(${rotateProjects}deg)`;
+  }
+}
+const elProjects = document.querySelector('.cubeRotateProjects');
+elProjects.onwheel = rotateCubeProjects;
+
+
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(window).scrollTop() >= 115) {
@@ -157,6 +180,16 @@ $(document).ready(function () {
     if ($(window).scrollTop() > $("#about-me-section").offset().top) {
       $(".bar.fill").removeClass("animate");
       $(".bar.flex > span").addClass("animate");
+    }
+
+    // when window reaches projects section add class slide in for 
+    // and when scroll up add another class that slides project right out
+    if(($(window).scrollTop() + 400) > $('#projectsHeaderID').offset().top){
+      $('#projectsHeaderID').addClass('in');
+      $('#projectsHeaderID').removeClass('out');
+    } else {
+      $('#projectsHeaderID').addClass('out');
+      $('#projectsHeaderID').removeClass('in');
     }
   });
   $(window).resize(function () {
@@ -174,13 +207,13 @@ $(document).ready(function () {
       $('.icon-button > i').addClass('rotated');
     }
   });
+
   // about me text
   var textWrapper = document.querySelector(".ml2");
   textWrapper.innerHTML = textWrapper.textContent.replace(
     /\S/g,
     "<span class='letter'>$&</span>"
   );
-
   anime
     .timeline({ loop: false })
     .add({
