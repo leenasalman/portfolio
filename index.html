@@ -23,33 +23,16 @@
     <title>Leena's Portfolio</title>
   </head>
   <body class="over-flow-hidden">
-    <svg viewbox="-10 -2 30 14">
-      <defs>
-        <mask id="mask" x="0" y="0" width="10" height="10">
-          <rect
-            x="-25"
-            y="-30"
-            width="40"
-            height="16"
-            fill="#fff"
-            class="first-rect"
-          />
-          <polygon points="2.5 0.66 7.5 0.66 10 5 7.5 9.33 2.5 9.33 0 5" />
-        </mask>
-      </defs>
-      <rect
-        x="-25"
-        y="-30"
-        width="30"
-        height="20"
-        mask="url(#mask)"
-        fill="#252324"
-        class="sec-rect"
-      />
-      <text x="-1" y="5" mask="url(#mask)">Welcome to my portfolio</text>
-    </svg>
+    <div class="polygon-container">
+      <div class="circle">
+      </div>
+      <h2>Welcome to my portfolio</h2>
+    </div>
     <div class="cube-container" id="cubeOne">
-      <div class="cube cubeRotate" style="transform: translateZ(-150px) rotateX(0deg);">
+      <div
+        class="cube cubeRotate"
+        style="transform: translateZ(-150px) rotateX(0deg)"
+      >
         <!-- page 1 start -->
         <div id="homePage" class="cube-sides page-1">
           <!-- HEADER SECTION START -->
@@ -113,25 +96,29 @@
                     <div class="bar fill animate" style="width: 90%">
                       <div class="tag bold flex">JavaScript</div>
                     </div>
-                    <span class="percent" data-target="90">0</span><span>%</span>
+                    <span class="percent" data-target="90">0</span
+                    ><span>%</span>
                   </div>
                   <div class="bar flex">
                     <div class="bar fill animate" style="width: 90%">
                       <div class="tag bold flex">jQuery</div>
                     </div>
-                    <span class="percent" data-target="90">0</span><span>%</span>
+                    <span class="percent" data-target="90">0</span
+                    ><span>%</span>
                   </div>
                   <div class="bar flex">
                     <div class="bar fill animate" style="width: 40%">
                       <div class="tag bold flex">React</div>
                     </div>
-                    <span class="percent" data-target="40">0</span><span>%</span>
+                    <span class="percent" data-target="40">0</span
+                    ><span>%</span>
                   </div>
                   <div class="bar flex">
                     <div class="bar fill animate" style="width: 40%">
                       <div class="tag bold flex">Python</div>
                     </div>
-                    <span class="percent" data-target="40">0</span><span>%</span>
+                    <span class="percent" data-target="40">0</span
+                    ><span>%</span>
                   </div>
                 </div>
                 <div class="col">
@@ -139,25 +126,29 @@
                     <div class="bar fill animate" style="width: 80%">
                       <div class="tag bold flex">Bootstrap</div>
                     </div>
-                    <span class="percent" data-target="80">0</span><span>%</span>
+                    <span class="percent" data-target="80">0</span
+                    ><span>%</span>
                   </div>
                   <div class="bar flex">
                     <div class="bar fill animate" style="width: 90%">
                       <div class="tag bold flex">HTML</div>
                     </div>
-                    <span class="percent" data-target="90">0</span><span>%</span>
+                    <span class="percent" data-target="90">0</span
+                    ><span>%</span>
                   </div>
                   <div class="bar flex">
                     <div class="bar fill animate" style="width: 90%">
                       <div class="tag bold flex">CSS/Sass</div>
                     </div>
-                    <span class="percent" data-target="90">0</span><span>%</span>
+                    <span class="percent" data-target="90">0</span
+                    ><span>%</span>
                   </div>
                   <div class="bar flex">
                     <div class="bar fill animate" style="width: 60%">
                       <div class="tag bold flex">UI Design</div>
                     </div>
-                    <span class="percent" data-target="60">0</span><span>%</span>
+                    <span class="percent" data-target="60">0</span
+                    ><span>%</span>
                   </div>
                 </div>
               </div>
@@ -165,7 +156,13 @@
                 <div class="col resume">
                   <h4>
                     <span class="colored">Resume:</span>
-                    <a href="Assets/Leena Salman_CV_2021.pdf" target="_blank" download> Leena's CV</a>
+                    <a
+                      href="Assets/Leena Salman_CV_2021.pdf"
+                      target="_blank"
+                      download
+                    >
+                      Leena's CV</a
+                    >
                   </h4>
                 </div>
                 <div class="col email">
@@ -181,15 +178,16 @@
                 <div class="col socials">
                   <a href="https://github.com/leenades" target="_blank">
                     <div class="box-wrapper">
-                      <div class="box">
-                      </div>
+                      <div class="box"></div>
                     </div>
                     <i class="fab fa-git"></i>
                   </a>
-                  <a href="https://www.linkedin.com/in/leena-salman-44954117a/" target="_blank">
+                  <a
+                    href="https://www.linkedin.com/in/leena-salman-44954117a/"
+                    target="_blank"
+                  >
                     <div class="box-wrapper">
-                      <div class="box">
-                      </div>
+                      <div class="box"></div>
                     </div>
                     <i class="fab fa-linkedin-in"></i>
                   </a>
@@ -217,15 +215,28 @@
       </ul>
     </div>
     <div class="cube-container display-none" id="cubeTwo">
-      <div class="cube cube-projects-one-rotate" style="transform: translateZ(-150px) rotateX(0deg);">
+      <div
+        class="cube cube-projects-one-rotate"
+        style="transform: translateZ(-150px) rotateX(0deg)"
+      >
         <div class="cube-sides page-5">
           <div class="website-link-container">
-            <div class="website-links"><a href="https://www.raptorx.com/" target="_blank">Open Website</a></div>
+            <div class="website-links">
+              <a href="https://www.raptorx.com/" target="_blank"
+                >Open Website</a
+              >
+            </div>
           </div>
         </div>
         <div class="cube-sides page-6">
           <div class="website-link-container">
-            <div class="website-links"><a href="https://leenades.github.io/WolfTripleSeven/" target="_blank">Open Website</a></div>
+            <div class="website-links">
+              <a
+                href="https://leenades.github.io/WolfTripleSeven/"
+                target="_blank"
+                >Open Website</a
+              >
+            </div>
           </div>
           <div class="scroll-down-for-more">
             <span class="button-down-icon"
@@ -235,13 +246,26 @@
         </div>
         <div class="cube-sides page-7">
           <div class="website-link-container">
-            <div class="website-links"><a href="https://iorafrica.com/" target="_blank">Open Website</a></div>
+            <div class="website-links">
+              <a href="https://iorafrica.com/" target="_blank">Open Website</a>
+            </div>
           </div>
         </div>
         <div class="cube-sides page-8">
           <div class="website-link-container">
-            <div class="website-links" style="transform: rotateY(180deg) rotateX(180deg); left: unset; right: 0;">
-              <a href="https://leenades.github.io/RoyalOnlineBook/" target="_blank">Open Website</a>
+            <div
+              class="website-links"
+              style="
+                transform: rotateY(180deg) rotateX(180deg);
+                left: unset;
+                right: 0;
+              "
+            >
+              <a
+                href="https://leenades.github.io/RoyalOnlineBook/"
+                target="_blank"
+                >Open Website</a
+              >
             </div>
           </div>
         </div>
@@ -262,10 +286,17 @@
       </ul>
     </div>
     <div class="cube-container display-none" id="cubeThree">
-      <div class="cube cube-projects-two-rotate" style="transform: translateZ(-150px) rotateX(0deg);">
+      <div
+        class="cube cube-projects-two-rotate"
+        style="transform: translateZ(-150px) rotateX(0deg)"
+      >
         <div class="cube-sides page-9">
           <div class="website-link-container">
-            <div class="website-links"><a href="https://leenades.github.io/sciuni/" target="_blank">Open Website</a></div>
+            <div class="website-links">
+              <a href="https://leenades.github.io/sciuni/" target="_blank"
+                >Open Website</a
+              >
+            </div>
           </div>
         </div>
         <div class="cube-sides page-10">
@@ -276,7 +307,13 @@
         </div>
         <div class="cube-sides page-11">
           <div class="website-link-container">
-            <div class="website-links"><a href="https://leenades.github.io/jokegenerator/" target="_blank">Open Website</a></div>
+            <div class="website-links">
+              <a
+                href="https://leenades.github.io/jokegenerator/"
+                target="_blank"
+                >Open Website</a
+              >
+            </div>
           </div>
           <div class="scroll-down-for-more">
             <span class="button-down-icon"

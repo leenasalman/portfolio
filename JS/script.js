@@ -113,7 +113,7 @@ $(document).ready(function () {
     $(this).addClass("current-item");
 
     if (!(e.target.innerHTML.toLowerCase() == "home")) {
-      $("svg").addClass("d-none");
+      $(".polygon-container").addClass("d-none");
     }
   });
 
