@@ -218,7 +218,7 @@ $(document).ready(function () {
     $(".projects-paragraph-container > p").addClass("blink");
 
     // remove display none on cube two
-    $("#cubeTwo").removeClass("display-none");
+    $("#cubeTwoSection").removeClass("display-none");
   });
 
   const elCubeTwo = document.querySelector(".cube-projects-one-rotate");
@@ -244,7 +244,7 @@ $(document).ready(function () {
 
     $(".second-cube-nav .item-list > a").addClass("white-color-nav-items");
     // remove display none on cube three
-    $("#cubeThree").removeClass("display-none");
+    $("#cubeThreeSection").removeClass("display-none");
   });
 
   // cube two rotate

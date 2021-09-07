@@ -333,7 +333,11 @@ div.row-email a:hover {
   background-color: #b6b6b6;
   transform: rotateY(180deg) translateZ(311px);
 }
-.cube-container .nav-list-styles {
+section.cube-section{
+  padding: 0;
+  position: relative;
+}
+.cube-section .nav-list-styles {
   position: absolute;
   bottom: 0;
   display: inline-block;
@@ -342,34 +346,34 @@ div.row-email a:hover {
   text-align: center;
   z-index: 9;
 }
-.cube-container .nav-list-styles > .item-list {
+.cube-section .nav-list-styles > .item-list {
   display: inline-block;
   margin: 0 20px;
 }
-.cube-container .nav-list-styles .item-list > a {
+.cube-section .nav-list-styles .item-list > a {
   text-decoration: none;
   color: #fff;
   font-size: 17px;
   text-transform: uppercase;
   transition: all 0.5s ease-in-out;
 }
-.cube-container
+.cube-section
   .nav-list-styles.second-cube-nav
   .item-list
   > a.white-color-nav-items,
-.cube-container
+.cube-section
   .nav-list-styles.third-cube-nav
   .item-list
   > a.white-color-nav-items {
   color: #fff;
 }
-.cube-container .nav-list-styles.third-cube-nav .item-list > a {
+.cube-section .nav-list-styles.third-cube-nav .item-list > a {
   color: #252324;
 }
-.cube-container .nav-list-styles.second-cube-nav .item-list > a {
+.cube-section .nav-list-styles.second-cube-nav .item-list > a {
   color: #252324;
 }
-.cube-container .nav-list-styles .item-list > a:hover {
+.cube-section .nav-list-styles .item-list > a:hover {
   color: #fdb42a;
 }
 .first-cube-nav .item-list.current-item > a {
@@ -381,7 +385,7 @@ div.row-email a:hover {
 .third-cube-nav .item-list.current-item > a {
   color: #fdb42a !important;
 }
-.cube-container .cube .my-skills {
+.cube-section .cube .my-skills {
   transform: rotate(180deg);
 }
 .octagon-container {
@@ -605,7 +609,7 @@ div.row-email a:hover {
   position: absolute;
   top: 50%;
   left: 0;
-  font-size: 17px;
+  font-size: 20px;
   animation: fadeOut 0.7s forwards .5s;
 }
   @media only screen and (max-width: 600px) {
@@ -673,14 +677,14 @@ div.row-email a:hover {
     .footer .form-div .form-styles .btn-form-group .submit-btn {
       margin-top: 0;
     }
-    .cube-container .nav-list-styles {
+    .cube-section .nav-list-styles {
       padding: 0;
     }
-    .cube-container .nav-list-styles > .item-list {
+    .cube-section .nav-list-styles > .item-list {
       margin: 0 10px;
     }
-    .cube-container .nav-list-styles .item-list > a,
-    .cube-container .nav-list-styles.second-cube-nav .item-list > a {
+    .cube-section .nav-list-styles .item-list > a,
+    .cube-section .nav-list-styles.second-cube-nav .item-list > a {
       font-size: 14px;
       font-weight: 900;
     }
