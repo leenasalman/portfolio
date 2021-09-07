@@ -1,0 +1,393 @@
+<html>
+  <head>
+    <link rel="icon" href="./Assets/palm.svg" type="image/gif" sizes="16x16" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+    <!-- font open sans -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Leena's Portfolio</title>
+  </head>
+  <body>
+    <!-- NAV BAR START -->
+    <nav class="div-nav navbar navbar-expand-lg position-fixed">
+      <img
+        src="./Assets/logo3.png"
+        width="100%"
+        height="100%"
+        alt="leena salman logo"
+      />
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a onclick="gotoTop();">Welcome</a>
+          </li>
+          <li class="nav-item">
+            <a onclick="aboutMe();">About</a>
+          </li>
+          <li class="nav-item">
+            <a onclick="gotoProjects();">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a onclick="goToContact();">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- NAV BAR END -->
+    <!-- side nav start -->
+    <div class="side-nav-bar">
+      <button class="icon-button" id="sideNavButton">
+        <i class="fa fa-chevron-left"></i>
+      </button>
+      <ul class="item-list">
+        <li class="side-nav-item">
+          <a onclick="gotoTop();">Welcome</a>
+        </li>
+        <li class="side-nav-item">
+          <a onclick="aboutMe();">About</a>
+        </li>
+        <li class="side-nav-item">
+          <a onclick="gotoProjects();">Projects</a>
+        </li>
+        <li class="side-nav-item">
+          <a onclick="goToContact();">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <!-- side nav end -->
+    <!-- HEADER SECTION START -->
+    <section id="header-section-top" class="header image-header">
+      <div class="wrapper">
+        <h1>Hi I'm leena and this is my portfolio</h1>
+      </div>
+    </section>
+    <!-- HEADER SECTION END -->
+
+    <!-- ABOUT ME SECTION START -->
+    <div id="particles-js"></div>
+    <section id="about-me-section" class="about-me">
+      <div class="container">
+        <div class="row row-header section-header"><h2>Who's leena?</h2></div>
+        <div class="row about-me-info">
+          <p class="aboutme-paragraph ml2">
+            I'm a Front-End Developer and I have a passion for making static
+            websites come to life. For the past year, I have developed 8
+            software projects including websites, web apps, and UI/UX.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="bar flex">
+              <div class="bar fill animate" style="width: 90%">
+                <div class="tag bold flex">JavaScript</div>
+              </div>
+              <span>90%</span>
+            </div>
+            <div class="bar flex">
+              <div class="bar fill animate" style="width: 90%">
+                <div class="tag bold flex">jQuery</div>
+              </div>
+              <span>90%</span>
+            </div>
+            <div class="bar flex">
+              <div class="bar fill animate" style="width: 40%">
+                <div class="tag bold flex">React</div>
+              </div>
+              <span>40%</span>
+            </div>
+            <div class="bar flex">
+              <div class="bar fill animate" style="width: 40%">
+                <div class="tag bold flex">Python</div>
+              </div>
+              <span>40%</span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="bar flex">
+              <div class="bar fill animate" style="width: 80%">
+                <div class="tag bold flex">Bootstrap</div>
+              </div>
+              <span>80%</span>
+            </div>
+            <div class="bar flex">
+              <div class="bar fill animate" style="width: 90%">
+                <div class="tag bold flex">HTML</div>
+              </div>
+              <span>90%</span>
+            </div>
+            <div class="bar flex">
+              <div class="bar fill animate" style="width: 90%">
+                <div class="tag bold flex">CSS/Sass</div>
+              </div>
+              <span>90%</span>
+            </div>
+            <div class="bar flex">
+              <div class="bar fill animate" style="width: 60%">
+                <div class="tag bold flex">UI Design</div>
+              </div>
+              <span>60%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT ME SECTION END -->
+
+    <!-- PROJECTS SECTION START -->
+    <section id="projectsSection" class="skills">
+      <div class="container">
+        <div class="row row-header section-header" id="projectsHeaderID">
+          <h2>Projects</h2>
+        </div>
+        <div class="row projects-row">
+          <div class="col">
+            <div class="row">
+              <div class="col projects-titles text-center">Websites</div>
+            </div>
+            <div class="cube-container">
+              <div class="cube cubeRotate">
+                <div class="cube-sides front">
+                  <a href="https://www.raptorx.com/">
+                    <div class="project-container">
+                      <div><h3>RaptorX</h3></div>
+                      <img
+                        src="./Assets/raptorx.png"
+                        width="495px"
+                        height="200px"
+                      />
+                    </div>
+                  </a>
+                </div>
+                <div class="cube-sides back">
+                  <a href="https://iorafrica.com/">
+                    <div class="project-container">
+                      <div>
+                        <h3 style="transform: rotateY(180deg) rotateX(180deg)">
+                          IORAfrica
+                        </h3>
+                      </div>
+                      <img
+                        src="./Assets/iorafrica.png"
+                        width="495px"
+                        height="200px"
+                        style="transform: rotateX(180deg) rotateY(180deg)"
+                      />
+                    </div>
+                  </a>
+                </div>
+                <div class="cube-sides top">
+                  <a href="https://leenades.github.io/WolfTripleSeven/">
+                    <div class="project-container">
+                      <div><h3>Wolf777</h3></div>
+                      <img
+                        src="./Assets/wolf777.png"
+                        width="495px"
+                        height="200px"
+                      />
+                    </div>
+                  </a>
+                </div>
+                <div class="cube-sides bottom">
+                  <a href="https://leenades.github.io/RoyalOnlineBook/">
+                    <div class="project-container">
+                      <div><h3>Royal Online Book</h3></div>
+                      <img
+                        src="./Assets/royalonlinebook.png"
+                        width="495px"
+                        height="200px"
+                      />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <div class="col projects-titles text-center">More Projects</div>
+            </div>
+            <div class="cube-container">
+              <div class="cube cubeRotateProjects">
+                <div class="cube-sides front">
+                  <a href="Assets/XD/emoi.xd">
+                    <div class="project-container">
+                      <div><h3>e-MOI</h3></div>
+                      <img src="./Assets/emoi.png" width="495px" height="200px" />
+                    </div>
+                  </a>
+                </div>
+                <div class="cube-sides back">
+                  <a href="Assets/XD/jorvolunteer.xd">
+                    <div class="project-container">
+                      <div>
+                        <h3 style="transform: rotateY(180deg) rotateX(180deg)">
+                          IORAfrica
+                        </h3>
+                      </div>
+                      <img
+                        src="./Assets/jorvol.png"
+                        width="495px"
+                        height="200px"
+                        style="transform: rotateX(180deg) rotateY(180deg)"
+                      />
+                    </div>
+                  </a>
+                </div>
+                <div class="cube-sides top">
+                  <a href="https://github.com/leenades/science-university">
+                    <div class="project-container">
+                      <div><h3>Science University</h3></div>
+                      <img
+                        src="./Assets/sci-uni.png"
+                        width="495px"
+                        height="200px"
+                      />
+                    </div>
+                  </a>
+                </div>
+                <div class="cube-sides bottom">
+                  <a href="https://leenades.github.io/jokegenerator/">
+                    <div class="project-container">
+                      <div><h3>Joke API</h3></div>
+                      <img
+                        src="./Assets/jokeapi.png"
+                        width="495px"
+                        height="200px"
+                      />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROJECTS SECTION END -->
+
+    <!-- FOOTER START -->
+    <footer id="footerSection" class="footer">
+      <div class="container">
+        <div class="row row-header section-header">
+          <h2>Contact me</h2>
+        </div>
+        <div class="row justify-content-center form-div">
+          <form
+            action="https://getform.io/f/7f420582-1d05-4fc3-b987-e4cde00b06b6"
+            method="POST"
+            target="_blank"
+            class="form-styles"
+          >
+            <div class="row">
+              <div class="col form-group p-0 mr-4">
+                <input
+                  class="form-control"
+                  placeholder="Full Name"
+                  type="text"
+                  id="fullName"
+                  name="fullname"
+                />
+              </div>
+              <div class="col form-group p-0">
+                <input
+                  class="form-control"
+                  placeholder="Email"
+                  type="email"
+                  id="Email"
+                  name="emailName"
+                />
+              </div>
+            </div>
+            <div class="row form-group">
+              <textarea
+                class="form-control"
+                rows="8"
+                placeholder="Write your message here..."
+                name="message"
+              ></textarea>
+            </div>
+            <div class="row form-group btn-form-group">
+              <button type="submit" name="submitBTN" class="btn submit-btn">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="row row-email">
+          <div class="col resume">
+            <h4>
+              <span class="colored">Resume:</span>
+              <a href="Assets/Leena Salman_CV_2021.pdf" download> Leena's CV</a>
+            </h4>
+          </div>
+          <div class="col email">
+            <h4>
+              <span class="colored">Email:</span>
+              <a href="mailto:leena.salmann@gmail.com"
+                >leena.salmann@gmail.com</a
+              >
+            </h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col socials">
+            <a href="https://github.com/leenades"><i class="fab fa-git"></i></a>
+            <a href="https://www.linkedin.com/in/leena-salman-44954117a/"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+        <div class="rainbow-band">
+          <div style="background-color: rgb(237, 28, 13)"></div>
+          <div style="background-color: rgb(237, 115, 0)"></div>
+          <div style="background-color: rgb(255, 191, 15)"></div>
+          <div style="background-color: rgb(135, 199, 15)"></div>
+          <div style="background-color: rgb(0, 201, 191)"></div>
+          <div style="background-color: rgb(61, 140, 222)"></div>
+          <div style="background-color: rgb(102, 51, 130)"></div>
+          <div style="background-color: rgb(255, 163, 181)"></div>
+          <div style="background-color: rgb(255, 51, 99)"></div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+    <div class="arrow-scroll-down">
+      <button class="icon-scroll-down">
+        <i class="fas fa-angle-double-down"></i>
+      </button>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cldup.com/S6Ptkwu_qA.js"></script>
+  <script src="JS/script.js"></script>
+</html>
