@@ -15,8 +15,6 @@ section.header.image-header {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100%;
-  max-height: 100%;
 }
 section.header.image-header::before {
   content: "";
@@ -614,6 +612,10 @@ section.cube-section{
   animation: fadeOut 0.7s forwards .5s;
 }
   @media only screen and (max-width: 600px) {
+    section.header.image-header {
+      height: 1080px;
+      background-size: auto;
+    }
     .section-header h2 {
       color: #fff;
       margin: 3% 0;
