@@ -9,7 +9,7 @@ body::-webkit-scrollbar {
   width: 0em;
 }
 section.header.image-header {
-  background-image: url("../Assets/IMG_9001.JPG");
+  background-image: url("../Assets/IMG_9001.jfif");
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -402,7 +402,7 @@ section.cube-section{
   transition: all 1s ease-in-out 0.7s;
 }
 #octagon.rotate-octagon {
-  transform: rotate(360deg) scale(20);
+  transform: rotate(360deg) scale(23);
 }
 #octagon:before {
   content: "";
@@ -654,7 +654,7 @@ section.cube-section{
       flex-basis: auto;
     }
     div.row-email h4 {
-      font-size: 20px;
+      font-size: 18px;
       text-align: start;
     }
     .my-skills .row .col.socials {
@@ -692,7 +692,7 @@ section.cube-section{
       font-weight: 900;
     }
     .bar.flex .tag {
-      font-size: 9px;
+      font-size: 8px;
       width: 55px;
     }
   }
