@@ -9,7 +9,7 @@ body::-webkit-scrollbar {
   width: 0em;
 }
 section.header.image-header {
-  background-image: url("../Assets/IMG_9001.jfif");
+  background-image: url("../Assets/IMG_9001.JPG");
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -366,12 +366,6 @@ section.cube-section{
   > a.white-color-nav-items {
   color: #fff;
 }
-.cube-section .nav-list-styles.third-cube-nav .item-list > a {
-  color: #252324;
-}
-.cube-section .nav-list-styles.second-cube-nav .item-list > a {
-  color: #252324;
-}
 .cube-section .nav-list-styles .item-list > a:hover {
   color: #fdb42a;
 }
@@ -402,7 +396,7 @@ section.cube-section{
   transition: all 1s ease-in-out 0.7s;
 }
 #octagon.rotate-octagon {
-  transform: rotate(360deg) scale(23);
+  transform: rotate(360deg) scale(20);
 }
 #octagon:before {
   content: "";
@@ -654,7 +648,7 @@ section.cube-section{
       flex-basis: auto;
     }
     div.row-email h4 {
-      font-size: 18px;
+      font-size: 20px;
       text-align: start;
     }
     .my-skills .row .col.socials {
@@ -692,7 +686,7 @@ section.cube-section{
       font-weight: 900;
     }
     .bar.flex .tag {
-      font-size: 8px;
+      font-size: 9px;
       width: 55px;
     }
   }

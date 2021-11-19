@@ -226,23 +226,19 @@ $(document).ready(function () {
   $("#raptorX").on("click", function (event) {
     event.preventDefault();
     elCubeTwo.style.transform = `translateZ(-150px) rotateX(0deg)`;
-    $(".second-cube-nav .item-list > a").removeClass("white-color-nav-items");
   });
   $("#iorAfrica").on("click", function (event) {
     event.preventDefault();
     elCubeTwo.style.transform = `translateZ(-150px) rotateX(90deg)`;
-    $(".second-cube-nav .item-list > a").addClass("white-color-nav-items");
   });
   $("#royalOnlineBook").on("click", function (event) {
     event.preventDefault();
     elCubeTwo.style.transform = `translateZ(-150px) rotateX(180deg)`;
-    $(".second-cube-nav .item-list > a").addClass("white-color-nav-items");
   });
   $("#wolfTripleSeven").on("click", function (event) {
     event.preventDefault();
     elCubeTwo.style.transform = `translateZ(-150px) rotateX(270deg)`;
 
-    $(".second-cube-nav .item-list > a").addClass("white-color-nav-items");
     // remove display none on cube three
     $("#cubeThreeSection").removeClass("display-none");
   });
@@ -254,7 +250,6 @@ $(document).ready(function () {
   $("#scienceUni").on("click", function (event) {
     event.preventDefault();
     elCubeThird.style.transform = `translateZ(-150px) rotateX(0deg)`;
-    $(".third-cube-nav .item-list > a").removeClass("white-color-nav-items");
   });
   $("#jokeAPI").on("click", function (event) {
     event.preventDefault();
@@ -262,7 +257,6 @@ $(document).ready(function () {
     // remove display none on footer
     $("#footerSection").removeClass("display-none");
 
-    $(".third-cube-nav .item-list > a").addClass("white-color-nav-items");
   });
   $("#underConstruction").on("click", function (event) {
     event.preventDefault();
