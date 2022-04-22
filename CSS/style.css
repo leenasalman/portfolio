@@ -1,12 +1,9 @@
-:root {
-  background: #706c4d;
-}
 body {
   font-family: "MADE TOMMY", sans-serif;
   height: 100vh;
   overflow: hidden;
 }
-body {
+html, body {
   background-color: #706c4d;
 }
 .nav-main {
