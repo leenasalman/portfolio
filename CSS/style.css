@@ -186,9 +186,10 @@ h2.header-style::before {
     position: absolute;
     left: 0px;
     top: -9px;
-    border-top: 1px solid #ffffff17;
+    border-top: 1px solid #ffffff2e;
     width: 100%;
-    box-shadow: 0px 4px 20px #fff;
+    box-shadow: 0px 2px 9px #fff;
+    border-radius: 100%;
   }
   h2.header-style::before {
     right: 62%;
