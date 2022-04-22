@@ -4,6 +4,9 @@ body {
   overflow: hidden;
 }
 html, body {
+  background-color: #706c4d !important;
+}
+:root {
   background-color: #706c4d;
 }
 .nav-main {
