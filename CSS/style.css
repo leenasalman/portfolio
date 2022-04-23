@@ -4,10 +4,13 @@ body {
   overflow: hidden;
 }
 html, body {
-  background-color: #706c4d !important;
+  background-color: #141412 !important;
 }
 :root {
-  background-color: #706c4d;
+  background-color: #141412;
+}
+.main-paragraph-container p {
+  color: #fff;
 }
 .nav-main {
   position: fixed !important;
@@ -22,19 +25,19 @@ html, body {
   color: #fe9801 !important;
 }
 .main-header {
-  background-color: #706c4d;
+  background-color: #141412;
   position: relative;
   height: 100vh;
   overflow: hidden;
 }
 .main-header .btn-style {
   background-color: transparent;
-  color: #fff !important;
-  border: 2px solid #fff;
+  color: #fe9801 !important;
+  border: 2px solid #fe9801;
   transition: color 170ms ease-in-out, border-color 170ms ease-in-out;
 }
 .main-header .btn-style:hover {
-  background-color: #fff;
+  background-color: #fe9801;
   color: #212529 !important;
 }
 .bubble-images {
@@ -108,7 +111,7 @@ a:hover {
   height: 100%;
 }
 .ajax-container .box {
-  background-color: #666346;
+  background-color: #262622;
   border-radius: 12px;
   padding: 23px;
   width: 100%;
@@ -215,10 +218,10 @@ h2.header-style::before {
   }
   #navbarSupportedContent .transitionNavBar {
     transform: translateX(15%);
-    box-shadow: 30px 0px 65px #121212f9;
+    box-shadow: 30px 0px 65px #505050a8;
   }
   .navbar-collapse .navbar-items-container {
-    background-color: #666346;
+    background-color: #141412;
     padding: 3rem;
     position: absolute;
     top: 0;
@@ -268,7 +271,7 @@ h2.header-style::before {
     height: 35px;
   }
   .line {
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #fff;
     height: 10px;
   }
   .line-1 {
