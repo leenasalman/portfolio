@@ -16,6 +16,10 @@ $(document).ready(function () {
     navbarButton.removeClass('transitionNavBar');
   });
 
+  $("#tatreez").on("click", function () {
+    $(".box").addClass("d-none");
+    $("#tatreezCont").removeClass("d-none");
+  });
   $("#cbd").on("click", function () {
     $(".box").addClass("d-none");
     $("#cbdCont").removeClass("d-none");
