@@ -36,9 +36,9 @@ $(document).ready(function () {
     $(".box").addClass("d-none");
     $("#sciuniCont").removeClass("d-none");
   });
-  $("#arduino").on("click", function () {
+  $("#carlux").on("click", function () {
     $(".box").addClass("d-none");
-    $("#ardCont").removeClass("d-none");
+    $("#carluxCont").removeClass("d-none");
   });
   $("#aboutMe").on("click", function () {
     $(".box").addClass("d-none");
